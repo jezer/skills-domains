@@ -1,9 +1,9 @@
 ﻿---
-name: montar-dossie-contestacao-bancaria
+name: build-bank-dispute-dossier
 description: Montar dossie tecnico e textos formais de contestacao para banco, Procon e Bacen com base em evidencias de auditoria financeira.
 ---
 
-# Montar Dossie Contestacao Bancaria
+# Build Bank Dispute Dossier
 
 ## Objetivo
 
@@ -31,3 +31,4 @@ Transformar resultados tecnicos de auditoria em documentos formais de contestaca
 3. Montar lista objetiva de pedidos ao banco.
 4. Gerar versoes de comunicacao: completa e resumida para protocolo.
 5. Validar se todos os anexos citados existem e estao atualizados.
+

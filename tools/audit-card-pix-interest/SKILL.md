@@ -1,9 +1,9 @@
 ﻿---
-name: auditar-cartao-pix-juros
+name: audit-card-pix-interest
 description: Auditar faturas e extratos de cartao com foco em PIX, juros, IOF, mora e multa, gerando evidencias por arquivo para detectar possiveis cobrancas indevidas.
 ---
 
-# Auditar Cartao PIX Juros
+# Audit Card PIX Interest
 
 ## Objetivo
 
@@ -33,3 +33,4 @@ Produzir analise tecnica rastreavel de cobrancas de cartao e extrato, priorizand
 4. Reconciliar fatura x extrato (debito direto e pagamentos fracionados quando aplicavel).
 5. Aplicar regras de alerta e depois depurar para lista robusta.
 6. Entregar relatorio final com evidencias e impacto financeiro estimado.
+
