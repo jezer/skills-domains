@@ -1,6 +1,6 @@
 ---
 name: semaforo-cabecalho
-description: Gerencia o framework Semaforo v3 — atualizar codigo-fonte, regenerar parquet, versionar e deployar o cabecalho Delta no Databricks. Usar quando alterar libs do framework, criar nova versao, resolver colisao de ordens, ou orientar o fluxo de deploy local -> Volumes -> tabela Delta -> loader.
+description: Gerencia o framework Semaforo v3 — atualizar codigo-fonte, regenerar parquet, versionar e deployar o cabecalho Delta no Databricks. Usar quando alterar libs do framework, criar nova versao, resolver colisao de ordens, ou orientar o fluxo de deploy local para Volumes, tabela Delta e loader.
 ---
 
 # Semaforo Cabecalho
@@ -80,3 +80,5 @@ Executados por ultimo, dependem de todas as classes ja definidas:
 
 1. `MANUAL.md`: fluxo completo de deploy e rollback.
 2. `DEPLOY.md`: analise das opcoes de instalacao (A/B/C/D) e justificativa da escolha D.
+
+
