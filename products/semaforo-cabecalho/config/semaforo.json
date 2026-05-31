@@ -1,5 +1,5 @@
 {
-  "versao": "v3.0",
+  "versao": "v3.1",
   "base_python": "C:/codes/pv/semaforo/plan/ativo/referencias/python",
   "output_dir": "C:/codes/pv/semaforo/cabecalho/scripts/output",
   "tabela": "tb_semaforo_cabecalho",
@@ -20,6 +20,11 @@
     {"arquivo": "cabecalho.py",                  "modulo": "cabecalho",     "ordem_base": 30}
   ],
   "init_blocos": [
+    {
+      "ordem": 999, "modulo": "init", "tipo": "init", "nome": "registrar_modulos_importaveis",
+      "descricao": "Registra lib_operacionalizar, lib_dependencia, lib_normalizar e lib_incremental em sys.modules — zero wheel, zero pip install",
+      "nota": "codigo gerado dinamicamente pelo script gerar-arquivo-cabecalho.py via _CODIGO_REGISTRAR_MODULOS"
+    },
     {
       "ordem": 1000, "modulo": "init", "tipo": "init", "nome": "criar_sf_app",
       "descricao": "Instancia SemaforoApp e registra globalmente em builtins",
