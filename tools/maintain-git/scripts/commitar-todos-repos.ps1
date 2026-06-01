@@ -47,7 +47,7 @@ $idx = Get-Content -LiteralPath $IndexPath -Raw | ConvertFrom-Json
 $repos = @()
 if ($null -ne $idx.git_repos) {
     foreach ($r in $idx.git_repos) {
-        if ($r.sync_enabled) { $repos += $r.full_path }
+        if ($r.sync_enabled) { $repos += $r.path }    
     }
 } else {
     foreach ($c in $idx.companies) {
