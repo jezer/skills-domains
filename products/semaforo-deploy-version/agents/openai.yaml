@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semaforo Deploy Version"
+  short_description: "Atualiza a versao do deploy Semaforo pelo parquet mais recente."
+  default_prompt: "Atualize a versao do deploy Semaforo para o parquet mais recente."
